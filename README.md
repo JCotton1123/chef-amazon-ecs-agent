@@ -1,6 +1,6 @@
 # amazon-ecs-agent-cookbook
 
-[![Build Status](https://travis-ci.org/willejs/chef-amazon-ecs-agent.svg?branch=master)](https://travis-ci.org/willejs/chef-amazon-ecs-agent)
+**This is an enhanced fork** of the [original cookbook](https://github.com/willejs/chef-amazon-ecs-agent).
 
 This cookbook sets up the [amazon ecs agent](https://github.com/aws/amazon-ecs-agent) into a docker container on ubuntu.
 You can run it in test kitchen with the default-ecs suite, and relevant environment variabes, and perhaps a kitchen local.yml for vpc settings (subnet_id, availability_zone, security_group_ids, interface) if needed.
